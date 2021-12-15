@@ -409,6 +409,12 @@ footer {
   .copyright p {
     float: right;
   }
+  .nav-links ul li{
+    padding-top: 5px;
+  }
+  .topic-box span img, .friend-request span img{
+    padding-top: 5px;
+  }
   
 
 }
