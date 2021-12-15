@@ -1,0 +1,531 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap"); */
+.container-main {
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h1 {
+  font-size: 26px;
+  padding-bottom: 12px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+.fb {
+  font-weight: bold;
+}
+
+.header-1 {
+  height: 85px;
+}
+header {
+  background-color: #7dd9e8;
+}
+.logo {
+  padding-top: 19px;
+  margin-right: 23px;
+}
+.mini-nav-icons {
+  padding: 28px 10px;
+}
+.mini-nav-icons img {
+  margin-left: 10px;
+}
+.nav-bar {
+  background-color: #f5f5f5;
+}
+.nav-bar .icons {
+  padding-top: 5px;
+}
+.nav-bar .icons img {
+  margin-right: 10px;
+}
+.middle-container {
+  width: 100%;
+}
+.search-section {
+  background: url(../images/searchbar.png) no-repeat right top;
+  width: 237px;
+}
+.reset {
+  outline: none;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+#input {
+  width: 100%px;
+  height: 20px;
+  font-size: 10px;
+}
+.search-icon {
+  background: url(../images/lens.png);
+  height: 20px;
+  width: 15px;
+  margin-left: 1px;
+}
+.curve-2 {
+  background: url(../images/curve-s-2.png);
+  height: 20px;
+  width: 6px;
+}
+.curve-1 {
+  background: url(../images/curve-s-1.png);
+  height: 20px;
+  width: 6px;
+}
+.reset-btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+}
+.button-search {
+  /* margin-left: 16px; */
+  background: url(../images/search-bg.png);
+  height: 20px;
+  width: 40px;
+  padding-top: 3px;
+}
+.button-search a {
+  color: #ffffff;
+  font-size: 10px;
+  /* text-align: center; */
+}
+.button-search a span {
+  text-align: center;
+  margin-left: 5px;
+}
+.btn-search-c1 {
+  background: url(../images/btn-search-c1.png);
+  height: 20px;
+  width: 6px;
+  margin-left: 10px;
+}
+.btn-search-c2 {
+  background: url(../images/btn-search-c2.png);
+  height: 20px;
+  width: 6px;
+}
+li {
+  display: inline-block;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.p-name {
+  text-align: right;
+  font-size: 14px;
+}
+.nav-mini {
+  font-size: 10px;
+  padding-top: 6px;
+}
+.nav-mini ul li a:hover {
+  text-decoration: underline;
+}
+.nav-links ul li a:hover {
+  text-decoration: underline;
+}
+.nav-links ul li {
+  padding: 0 15px;
+}
+.nav-links a {
+  color: #000000;
+  font-weight: bold;
+}
+.nav-links-2 {
+  height: 20px;
+}
+.friend-request {
+  padding: 0 0 0 5px;
+}
+.topic-box span,
+.friend-request span {
+  bottom: 3px;
+  padding-left: 5px;
+}
+.left-container {
+  background: #f5f5f5;
+  width: 100%;
+  height: auto;
+}
+.left-heading {
+  background: #2fc1da;
+  /* height: 40px; */
+  padding: 12px 12px;
+  color: #f5f5f5;
+}
+.search-contents ul a li {
+  width: 100%;
+}
+.search-contents ul a li:hover {
+  background-color: #ffffff;
+}
+.search-contents ul a li span {
+  padding-top: 10px;
+  padding: 13px 11px;
+}
+.search-contents img {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.video-tutorial li {
+  height: 35px;
+  padding: 11px 13px;
+  width: 100%;
+}
+.video-tutorial li:hover {
+  background-color: #ffffff;
+}
+.right-container {
+  background: #f5f5f5;
+  width: 100%;
+  height: 100%;
+}
+.middle-container h1 {
+  font-size: 26px;
+  padding: 12px 0 12px 0;
+}
+.middle-left {
+  background: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.middle-right {
+  background: #f5f5f5;
+  margin-left: 2px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.middle-left-c1 {
+  background: url(../images/all-entries-c1.png);
+  width: 10px;
+  /* height: 65px; */
+}
+.middle-left-c2 {
+  background: url(../images/all-entries-c2.png);
+  width: 10px;
+  /* height: 65px; */
+}
+.middle-left h4,
+.middle-right h4 {
+  text-align: center;
+  margin-top: 5px;
+}
+/* .all-entries {
+  position: absolute;
+  bottom: 0;
+}
+.suscribed {
+  position: absolute;
+  bottom: 0;
+} */
+
+.middle-tab-1 {
+  background: url(../images/middle-tab-1.png) no-repeat;
+  height: 28px;
+  width: 40%;  /*changed*/
+  text-align: center;
+  padding-top: 7px;
+  margin-left: 7px;
+  /* position: absolute; */
+  background-position: center;
+}
+.middle-tab-1 a {
+  color: #ffffff;
+}
+.middle-tab-2,
+.middle-tab-3,
+.middle-tab-4 {
+  background: url(../images/middle-tab-2.png) no-repeat;
+  height: 28px;
+  width: 40%; /*changed*/
+  text-align: center;
+  margin-left: 9px;
+  padding-top: 7px;
+  background-position: center;
+  /* position: absolute; */
+}
+.middle-tab-2:hover,
+.middle-tab-3:hover,
+.middle-tab-4:hover {
+  background: url(../images/middle-tab-1.png) no-repeat;
+  color: #ffffff;
+  background-position: center;
+}
+
+.middle-nav {
+  border-bottom: 2px solid #30c2db;
+}
+.profile-contents h4:hover,
+.content-items p a:hover {
+  text-decoration: underline;
+}
+
+.contents {
+  line-height: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+.contents img {
+  margin-right: 10px;
+}
+footer {
+  background: #727272;
+  text-align: center;
+  padding: 15px 30px;
+}
+.footer-ul li {
+  color: #ffffff;
+  padding: 0 5px;
+  font-size: 10px;
+  height: 15px;
+}
+.footer-ul li::after {
+  content: "•";
+  margin-left: 10px;
+}
+.footer-ul li:last-child::after {
+  content: "";
+}
+
+.copyright p {
+  color: #ffffff;
+  font-size: 10px;
+}
+.profile-contents h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.tred {
+  color: #d53f1d;
+  font-weight: bold;
+}
+.tblack {
+  color: #000000;
+  font-weight: 500;
+}
+.tblue {
+  color: #4faec0;
+  font-weight: bold;
+}
+.tgreen {
+  color: #7b9e30;
+  font-weight: bold;
+}
+.twhite {
+  color: #ffffff;
+}
+.search{
+  display: none;
+}
+.top-right-nav{
+  display: none;
+}
+.nav-links{
+  display: none;
+}
+.nav-links-2{
+  display: none;
+}
+.search-contents{
+  display: none;
+}
+.video-tutorial{
+  display: none;
+}
+.left-heading{
+  margin-bottom: 10px;
+}
+@media screen and (min-width:768px)
+{
+ .left-container{
+  width: 30%;
+  float: left;
+  }
+ .middle-container{
+  width: 60%;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  }
+ .right-container{
+  width: 100%;
+  margin-bottom: 10px;
+  }
+  .search{
+    display: block;
+  }
+  .top-right-nav{
+    display: block;
+  }
+  .nav-links{
+    display: block;
+  }
+  .nav-links-2{
+    display: block;
+  }
+  .search-contents{
+    display: block;
+  }
+  .video-tutorial{
+    display: block;
+    
+  }
+  .mini-nav-icons{
+    display: none;
+  }
+  .mini-nav-icons-2{
+    display:none;
+  }
+  .left-heading span{
+    display: none;
+  }
+  .icons{
+    display: none;
+  }
+  .copyright p {
+    float: right;
+  }
+  
+
+}
+@media screen and (min-width:1001px)
+{
+  .container-main {
+  min-width: 1002px;
+  }
+  .container{
+    width: 938px;
+    margin: 0 auto;
+  }
+  .search{
+    display: block;
+  }
+  .top-right-nav{
+    display: block;
+  }
+  .nav-links{
+    display: block;
+  }
+  .nav-links-2{
+    display: block;
+  }
+  .search-contents{
+    display: block;
+  }
+  .video-tutorial{
+    display: block;
+  }
+  .mini-nav-icons{
+    display: none;
+  }
+  .mini-nav-icons-2{
+    display:none;
+  }
+  .left-heading span{
+    display: none;
+  }
+  .icons{
+    display: none;
+  }
+  .friend-request {
+    padding: 0 0 0 15px;
+  }
+  .left-container {
+    width: 194px;
+    height: 605px;
+  }
+  .right-container {
+    width: 176px;
+    height: 605px;
+  }
+  .middle-container h1 {
+    padding-bottom: 12px;
+  }
+  .middle-left {
+    width: 248px;
+    height: 65px;
+    position: relative;
+    float: left;
+  }
+  .middle-right {
+    width: 248px;
+    height: 65px;
+    position: relative;
+    float: right;
+    margin-left: 2px;
+  }
+  .middle-left-c1 {
+    height: 65px;
+    
+  }
+  .middle-left-c2 {
+    height: 65px;
+  }
+  .all-entries {
+    position: absolute;
+    bottom: 0;
+  }
+  .suscribed {
+    position: absolute;
+    bottom: 0;
+  }
+  .middle-tab-1 {
+    width: 115px;
+    height: 28px;
+    
+    
+  }
+  .middle-tab-2,
+  .middle-tab-3,
+  .middle-tab-4 {
+  width: 115px;
+  height: 28px;
+  margin-left: 9px;
+
+  }
+  .middle-container{
+    width:518px;
+    margin-left: 25px;
+    float: left;
+
+  }
+  .left-container{
+    width: 194px;
+    height: 605px;
+    
+
+  }
+  .right-container{
+    width: 176px;
+    height: 605px;
+    
+  }
+  
+ 
+
+}
+

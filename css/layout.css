@@ -1,0 +1,34 @@
+/* .clearfix {
+  overflow: auto;
+} */
+
+/* .container-main {
+  min-width: 100%;
+} */
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 20px;
+  /* height: 125px; */
+}
+/* .logo {
+  margin-top: 20px;
+} */
+.search {
+  margin-top: 40px;
+  /* margin-left: 10px; */
+  /* margin-bottom: 25px; */
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.top-right-nav {
+  margin-top: 28px;
+  /* margin-right: 28px; */
+}
+
